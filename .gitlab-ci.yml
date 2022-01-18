@@ -15,7 +15,7 @@ deploy_job:
     - main
   stage: deploy
   script:
-    - composer update
+    - composer install
     - cp -r . /var/www/html/
   tags:
     - prod

@@ -16,6 +16,8 @@ deploy_job:
   stage: deploy
   script:
     - composer install
+    - npm install
+    - npm run prod
     - cp -r . /var/www/html/
   tags:
     - prod

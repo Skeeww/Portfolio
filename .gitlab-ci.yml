@@ -12,12 +12,14 @@ sast:
 
 deploy_job:
   only:
-    - master
+    - main
   stage: deploy
   script:
     - cd /var/www/html
     - git pull
     - composer update
+  tags:
+    - prod
 
 include:
 - template: Security/SAST.gitlab-ci.yml

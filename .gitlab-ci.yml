@@ -16,7 +16,7 @@ deploy_job:
   stage: deploy
   script:
     - cd /var/www/html
-    - git pull
+    - ls -la
     - composer update
   tags:
     - prod

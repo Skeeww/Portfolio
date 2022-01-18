@@ -15,10 +15,10 @@ deploy_job:
     - main
   stage: deploy
   script:
-    - composer install
-    - npm install
-    - npm run prod
-    - cp -r . /var/www/html/
+    - sudo composer install
+    - sudo npm install
+    - sudo npm run prod
+    - sudo cp -r . /var/www/html/
   tags:
     - prod
 

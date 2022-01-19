@@ -161,6 +161,14 @@
         <hr class="mt-5">
         <div class="flex flex-col lg:flex-row w-full mt-16">
             <div class="flex-grow border border-gray-800 border-4 p-5 rounded lg:mr-5">
+                <h4 class="text-2xl"><a href="https://gitlab.com/skewram/preri">PRERI</a></h4>
+                <p>Projet de fin 1ère année d'IUT permettant de prédir la consommation électrique en France.</p>
+                <ul class="inline-block text-xs text-white mt-5">
+                    <li class="inline px-2 py-1 bg-black rounded-2xl">Java</li>
+                    <li class="inline px-2 py-1 bg-black rounded-2xl">JavaFX</li>
+                </ul>
+            </div>
+            <div class="flex-grow border border-gray-800 border-4 p-5 rounded lg:mr-5">
                 <h4 class="text-2xl"><a href="https://gitlab.com/skewram/armorutil">ArmorUtil</a></h4>
                 <p>Plugin Minecraft pour serveur Spigot permettant de générer des porte-armures avec certaines rotations.</p>
                 <ul class="inline-block text-xs text-white mt-5">
@@ -354,10 +362,10 @@
                 <p><i class="my-2 lni lni-envelope"></i> <a href="mailto:noan.perrot@gmail.com">noan.perrot@gmail.com</a></p>
                 <hr class="w-2/4 my-4">
                 <p class="self-start py-2">
-                    Admis à intégrer la formation <a href="http://www.enssat.fr/fr_FR/formations/formation-ingenieur-par-apprentissage">IMR (Image Multimédia et Réseaux) de l’ENSSAT</a>, je me forme aux dernières technologies utilisées dans le secteur de l’Intelligence Artificielle.
+                    Admis à intégrer la formation <a href="http://www.enssat.fr/fr_FR/formations/formation-ingenieur-par-apprentissage">IMR (Image Multimédia et Réseaux) de l’ENSSAT</a>, je découvre les dernières technologies utilisées dans le secteur de l’Intelligence Artificielle.
                 </p>
                 <p class="self-start">
-                    Fortement motivé par les aspects créatifs d’un projet, je recherche une alternance pour participer au monde de demain.
+                    Fortement motivé par les aspects créatifs d’un projet, je suis actuellement en alternance au sein de l'entreprise <a href="https://www.apizee.com/">Apizee</a>.
                 </p>
                 <a href="https://www.linkedin.com/in/noan-perrot/" class="btn mt-8 py-4 w-2/4 bg-blue-500 text-center text-white rounded-xl transition-all focus:ring ring-offset-blue-600">
                     <i class="lni lni-linkedin-original"></i> Mon LinkedIn
@@ -391,7 +399,7 @@
                         <hr>
                     </div>
                 </div>
-                <p class="border-l-4 pl-12 ml-8 mt-2">Seconde année en <b>alternance</b><br>Spécialité: <b>Génie Logiciel</b></p>
+                <p class="border-l-4 pl-12 ml-8 mt-2" id="self-description">Seconde année en <b>alternance</b><br>Spécialité: <b>Génie Logiciel</b></p>
             </div>
             
             <div class="flex flex-col mt-4">
@@ -420,8 +428,8 @@
                 <p class="text-4xl">Lignes pour <b>coder ce site</b></p>
             </div>
             <div class="stat mb-14 self-end">
-                <h4 class="text-9xl mb-5">57</h4>
-                <p class="text-4xl"><b>cartes graphiques</b> ont été mangé</p>
+                <h4 class="text-9xl mb-5">{{$nb_repo}}</h4>
+                <p class="text-4xl"><b>repository</b> sur GitLab</p>
             </div>
         </div>
         <div class="grid grid-rows-2 gap-28 lg:grid-cols-2">
@@ -468,8 +476,8 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M977.492 106.817C1078.02 88.8903 1172.35 0.579116 1268.31 30.2656C1364.47 60.016 1361.22 173.767 1416.47 242.626C1459.5 296.257 1502.31 349.433 1559.93 393.732C1642.38 457.126 1767.28 483.878 1829.59 560.262C1894.75 640.155 1926.22 739.082 1918.98 833.92C1911.54 931.429 1877.29 1037.82 1787.97 1105.47C1696.76 1174.56 1550.01 1165.54 1432.51 1202.39C1331.91 1233.94 1247.15 1296.25 1140.05 1308.7C1033.65 1321.06 914.556 1318.16 823.342 1273.21C729.222 1226.82 734.044 1098.35 634.547 1059.58C520.505 1015.14 365.671 1103.53 256.333 1052.25C160.721 1007.42 156.768 897.555 115.362 816.104C70.9986 728.835 -12.6844 644.559 1.62523 551.212C15.9942 457.479 148.483 401.934 192.32 314.08C240.588 217.348 150.556 53.1449 271.097 11.1699C420.154 -40.7354 572.919 103.886 733.501 125.629C814.733 136.628 897.1 121.152 977.492 106.817Z" fill="#28DB9B"/>
         </svg>
         <div class="absolute top-0 left-0 lg:top-24 lg:left-32 mt-32 lg:mt-0 lg:mt-0 container lg:px-64 text-white" id="nicetextbro">
-            <p id="envre" class=""><b>EN VRAI</b></p>
-            <a id="iremoi" class="px-5 bg-pink-400 rounded-2xl italic float-right underline" href="./cv.pdf" download="NoanPerrotCV.pdf">>> GO ME RECRUTER <<</a>
+            <p id="envre" class=""><b>Interessé ?</b></p>
+            <a id="iremoi" class="px-5 bg-pink-400 rounded-2xl italic float-right underline" href="./cv.pdf" download="NoanPerrotCV.pdf">>> Voici mon CV <<</a>
         </div>
     </div>
     <!--

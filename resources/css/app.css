@@ -140,6 +140,10 @@ div.modal#web::after{
     z-index: -1;
 }
 
+#self-description a{
+    font-weight: bold;
+}
+
 .skill{
     max-height: 240px;
     max-width: 560px;

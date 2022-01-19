@@ -18,7 +18,9 @@ deploy_job:
     - sudo composer install
     - sudo npm install
     - sudo npm run prod
+    - sudo rm -rf ./node_modules
     - sudo cp -r . /var/www/html/
+    - sudo chmod 777 -R /var/www/html/storage/logs
   tags:
     - prod
 

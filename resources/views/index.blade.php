@@ -362,7 +362,7 @@
                 <p><i class="my-2 lni lni-envelope"></i> <a href="mailto:noan.perrot@gmail.com">noan.perrot@gmail.com</a></p>
                 <hr class="w-2/4 my-4">
                 <p class="self-start py-2">
-                    Admis à intégrer la formation <a href="http://www.enssat.fr/fr_FR/formations/formation-ingenieur-par-apprentissage">IMR (Image Multimédia et Réseaux) de l’ENSSAT</a>, je découvre les dernières technologies utilisées dans le secteur de l’Intelligence Artificielle.
+                    Passionné par la cybersécurité et l'intelligence artificelle, j'ai pour ambition de devenir ingénieur ou chercheur dans ces domaines.
                 </p>
                 <p class="self-start">
                     Fortement motivé par les aspects créatifs d’un projet, je suis actuellement en alternance au sein de l'entreprise <a href="https://www.apizee.com/">Apizee</a>.
@@ -382,7 +382,7 @@
                 </div>
                 <div class="mood rounded-xl p-2 m-5 lg:m-0 self-start" data-scroll>
                     <i class="lni lni-ruler-pencil"></i>
-                    <h3 class="text-green-light font-bold text-2xl lg:text-3xl py-2 uppercase">ORGANISÉ</h3>
+                    <h3 class="text-green-light font-bold text-2xl lg:text-3xl py-2 uppercase">CREATIF</h3>
                 </div>
             </div>
         </div>
@@ -424,8 +424,8 @@
     <div class="container mx-auto h-auto lg:px-64 nav-trigger" id="funfact">
         <div class="flex flex-col transform lg:-translate-y-1/2">
             <div class="stat mb-14">
-                <h4 class="text-9xl mb-5">944</h4>
-                <p class="text-4xl">Lignes pour <b>coder ce site</b></p>
+                <h4 class="text-9xl mb-5">+999</h4>
+                <p class="text-4xl">Tasses de cafés bu</p>
             </div>
             <div class="stat mb-14 self-end">
                 <h4 class="text-9xl mb-5">{{$nb_repo}}</h4>
@@ -437,7 +437,7 @@
                 <img class="transform -translate-y-16" src="https://i.scdn.co/image/be9d9ffb781917a37eec1c76c8ca9b2f9acfc590">
                 <img class="transform -translate-y-16" src="https://i.scdn.co/image/ab67616d00001e0224edb22d068eb245a924b7f2">
                 <img src="https://i.scdn.co/image/f5ee560658111388ece8fd33d51e67533649c7d9">
-                <img src="https://i.scdn.co/image/ab67616100005174686e3992aef97266d01b6c6f">
+                <img src="https://i.scdn.co/image/ab67616100005174745e09d713e0bfe2df2e2a35">
             </div>
             <div class="spotify-top flex flex-col justify-between items-center">
                 <div class="w-full flex flex-row justify-between items-center">
@@ -461,7 +461,7 @@
                 <div class="w-full flex flex-row justify-between items-center">
                     <div class="p-3 bg-red-200 flex flex-row justify-between flex-grow rounded-2xl">
                         <p class="text-2xl">#4</p>
-                        <p class="text-2xl font-bold">The Living Tombstone</p>
+                        <p class="text-2xl font-bold">Carpenter Brut</p>
                     </div>
                 </div>
                 <a href="https://open.spotify.com/user/naoukill" class="px-8 py-4 text-white transition-all bg-green-400 hover:bg-green-600 rounded-full"><i class="lni lni-spotify-original"></i> Voir mon profil</a>

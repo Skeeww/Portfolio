@@ -367,7 +367,7 @@
                 <p class="self-start">
                     Fortement motivé par les aspects créatifs d’un projet, je suis actuellement en alternance au sein de l'entreprise <a href="https://www.apizee.com/">Apizee</a>.
                 </p>
-                <a href="https://www.linkedin.com/in/noan-perrot/" class="btn mt-8 py-4 w-2/4 bg-blue-500 text-center text-white rounded-xl transition-all focus:ring ring-offset-blue-600">
+                <a href="https://www.linkedin.com/in/noan-perrot/" class="btn mt-8 py-4 w-2/4 bg-blue-500 text-center text-white rounded-xl transition-all hover:bg-blue-800">
                     <i class="lni lni-linkedin-original"></i> Mon LinkedIn
                 </a>
             </div>

@@ -32,15 +32,17 @@ let observer = new IntersectionObserver(entries => {
     }
 }, {
     root: document,
-    rootMargin: '0px',
+    rootMargin: '20px',
     threshold: 0
 })
 
-document.addEventListener("scroll", () => {
+window.addEventListener("scroll", () => {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         hideNavbar()
+        navbarShow = false
     }else{
         showNavbar()
+        navbarShow = true
     }
 })
 
@@ -60,7 +62,6 @@ let hideNavbar = () => {
             {bottom: "-100%"}
         ], {duration: 1000, easing: "ease-in-out"})
         setTimeout(() => document.getElementById('nav')?.classList.add('hidden'), 1000)
-        navbarShow = false
     }
 }
 
@@ -71,6 +72,5 @@ let showNavbar = () => {
             {bottom: 0}
         ], {duration: 1000, easing: "ease-in-out"})
         document.getElementById('nav')?.classList.remove('hidden')
-        navbarShow = true
     }
 }

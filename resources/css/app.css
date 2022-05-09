@@ -32,10 +32,6 @@
     }
 }
 
-a:hover{
-    text-decoration: underline;
-}
-
 #meteor{
     animation: float 5s alternate infinite ease-in-out;
 }
@@ -190,6 +186,7 @@ div.modal#web::after{
     font-size: 3rem;
     background: rgb(196,0,255);
     background: linear-gradient(180deg, rgba(196,0,255,1) 0%, rgba(0,212,255,0.8) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

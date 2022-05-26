@@ -552,7 +552,7 @@
             id="nicetextbro">
             <p id="envre" class=""><b>Interessé ?</b></p>
             <a id="iremoi" class="px-5 bg-pink-400 rounded-2xl italic float-right underline" href="./cv.pdf"
-                download="NoanPerrotCV.pdf">>> Voici mon CV <<< /a>
+                download="NoanPerrotCV.pdf">>> Voici mon CV <<</a>
         </div>
     </div>
     <!--

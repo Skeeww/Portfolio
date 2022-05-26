@@ -408,7 +408,7 @@
     <div class="d-block h-auto container mx-auto lg:px-64 nav-trigger" id="aboutme">
         <div class="flex flex-col lg:flex-row justify-between mt-40">
             <div class="about-me flex flex-col items-center w-full md:w-2/5 p-10 rounded-xl" data-scroll>
-                <img class="rounded-full" src="img/pp.jpg">
+                <img class="rounded-full" src="img/pp.png">
                 <h3 class="text-green-light font-bold text-3xl py-2 uppercase text-center">Interesse par l'I.A</h3>
                 <p><i class="my-2 lni lni-envelope"></i> <a
                         href="mailto:noan.perrot@gmail.com">noan.perrot@gmail.com</a></p>

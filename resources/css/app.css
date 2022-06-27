@@ -57,7 +57,10 @@ body{
     overflow-x: hidden;
     max-width: 100%;
 }
-
+p > a {
+    color: rgb(40, 219, 155);
+    text-decoration: underline;
+}
 .actif{
     position: relative;
 }
@@ -147,7 +150,7 @@ div.modal#web::after{
 }
 .skill img{
     height: 120px;
-    width: 120px;
+    width: auto;
 }
 .skill h2{
     font-size: 3rem;
@@ -193,7 +196,17 @@ div.modal#web::after{
 .mood{
     text-align: center;
     background: #FFF;
+    padding: 15px;
     box-shadow: 0px 5px 0px -2px rgba(0, 0, 0, 0.25);
+}
+.mood:nth-child(1){
+    animation: float 2s 0s infinite alternate ease-in-out;
+}
+.mood:nth-child(2){
+    animation: float 2s 1s infinite alternate ease-in-out;
+}
+.mood:nth-child(3){
+    animation: float 2s 0.5s infinite alternate ease-in-out;
 }
 .stat h4{
     position: relative;

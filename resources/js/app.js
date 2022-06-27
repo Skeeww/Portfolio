@@ -1,4 +1,3 @@
-require('./bootstrap');
 require('./modal');
 require('./stars');
 require('./index');

@@ -501,11 +501,11 @@
             <div
                 class="spotify-albums gap-2 grid grid-flow-col grid-cols-2 grid-rows-2 transform -rotate-45 -translate-x-24 lg:-translate-x-14 lg:-translate-x-0">
                 <img class="transform -translate-y-16"
-                    src="https://i.scdn.co/image/be9d9ffb781917a37eec1c76c8ca9b2f9acfc590">
+                    src="https://i.scdn.co/image/ab67616100005174bb5d08bce59cfcc825c301f4">
                 <img class="transform -translate-y-16"
-                    src="https://i.scdn.co/image/ab67616d00001e0224edb22d068eb245a924b7f2">
-                <img src="https://i.scdn.co/image/f5ee560658111388ece8fd33d51e67533649c7d9">
-                <img src="https://i.scdn.co/image/ab67616100005174745e09d713e0bfe2df2e2a35">
+                    src="https://i.scdn.co/image/ab676161000051743c8baa7ffc49a4980ad3691f">
+                <img src="https://i.scdn.co/image/ab676161000051742f71b65ef483ed75a8b40437">
+                <img src="https://i.scdn.co/image/ab67616100005174f118bd73da69b2459710fb83">
             </div>
             <div class="spotify-top flex flex-col justify-between items-center">
                 <div class="w-full flex flex-row justify-between items-center">
@@ -517,19 +517,19 @@
                 <div class="w-full flex flex-row justify-between items-center">
                     <div class="p-4 bg-blue-300 flex flex-row justify-between flex-grow rounded-2xl">
                         <p class="text-2xl">#2</p>
-                        <p class="text-2xl font-bold">Toby Fox</p>
+                        <p class="text-2xl font-bold">ZZCCMXTP</p>
                     </div>
                 </div>
                 <div class="w-full flex flex-row justify-between items-center">
                     <div class="p-3 bg-purple-300 flex flex-row justify-between flex-grow rounded-2xl">
                         <p class="text-2xl">#3</p>
-                        <p class="text-2xl font-bold">Lena Raine</p>
+                        <p class="text-2xl font-bold">The Weeknd</p>
                     </div>
                 </div>
                 <div class="w-full flex flex-row justify-between items-center">
                     <div class="p-3 bg-red-200 flex flex-row justify-between flex-grow rounded-2xl">
                         <p class="text-2xl">#4</p>
-                        <p class="text-2xl font-bold">Carpenter Brut</p>
+                        <p class="text-2xl font-bold">Polyphia</p>
                     </div>
                 </div>
                 <a href="https://open.spotify.com/user/naoukill"
